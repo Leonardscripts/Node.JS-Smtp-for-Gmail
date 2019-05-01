@@ -1,0 +1,20 @@
+{
+  "name": "emailnode",
+  "version": "1.0.0",
+  "description": "SMTP",
+  "main": "server.js",
+  "scripts": {
+    "devserver": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "keywords": [],
+  "author": "M.C.L",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.4",
+    "nodemailer": "6.1.1",
+    "nodemailer-mailgun-transport": "1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.0"
+  }
+}
