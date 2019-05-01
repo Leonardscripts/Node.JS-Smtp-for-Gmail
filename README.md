@@ -12,4 +12,4 @@
 
 # create a seperate mail.js file that connects to your index.html or contact.html file in a folder called views were you can store your form data.
 
-#const sendMail = require('./mail');
+# const sendMail = require('./mail');
